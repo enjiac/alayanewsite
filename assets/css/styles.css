@@ -6,7 +6,7 @@
   }
 }
 
-@media (max-width: 767px) and (min-width: 495px) {
+@media (max-width: 867px) and (min-width: 495px) {
   .jumbotron {
     background-image: url("../../assets/img/archi2.jpg");
     background-size: 100%;
@@ -14,7 +14,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 868px) {
   .jumbotron {
     background-image: url("../../assets/img/archi.jpg");
     background-size: 100%;
