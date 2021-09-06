@@ -1,0 +1,42 @@
+@media (max-width: 494px) {
+  .jumbotron {
+    background-image: url("../../assets/img/archi3.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 495px) {
+  .jumbotron {
+    background-image: url("../../assets/img/archi2.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 768px) {
+  .jumbotron {
+    background-image: url("../../assets/img/archi.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+
+.btn:not(:disabled):not(.disabled) {
+  background-color: rgb(255,255,255);
+  border-style: none;
+  color: rgb(192,102,105);
+}
+
+@media (min-width: 553px) {
+  .w-100 {
+    width: auto!important;
+  }
+}
+
+@media (max-width: 552px) {
+  .w-100 {
+    width: 100%!important;
+  }
+}
+
